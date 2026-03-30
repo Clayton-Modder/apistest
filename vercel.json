@@ -1,10 +1,10 @@
 {
   "functions": {
     "api/webhook.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.7.2"
     },
     "api/setup.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.7.2"
     }
   },
   "routes": [
