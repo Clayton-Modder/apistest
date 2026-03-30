@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "api/webhook.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "api/setup.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/webhook", "dest": "/api/webhook.php" },
+    { "src": "/setup",   "dest": "/api/setup.php"   },
+    { "src": "/",        "dest": "/api/webhook.php"  }
+  ]
+}
