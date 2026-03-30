@@ -15,10 +15,10 @@
 //  CONFIGURAÇÕES (via variáveis de ambiente do Vercel)
 // ════════════════════════════════════════════════════════
 
-define('BOT_TOKEN',     getenv('BOT_TOKEN')     ?: 'SEU_TOKEN_AQUI');
+define('BOT_TOKEN',     getenv('BOT_TOKEN')     ?: '8407063580:AAEQpwhl-CmxuzNSv-fgYzM7eVK7efMDUww');
 define('API_URL',       'https://api.telegram.org/bot' . BOT_TOKEN . '/');
-define('UPSTASH_URL',   getenv('UPSTASH_URL')   ?: '');
-define('UPSTASH_TOKEN', getenv('UPSTASH_TOKEN') ?: '');
+define('UPSTASH_URL',   getenv('UPSTASH_URL')   ?: 'https://boss-stinkbug-87986.upstash.io');
+define('UPSTASH_TOKEN', getenv('UPSTASH_TOKEN') ?: 'gQAAAAAAAVeyAAIncDJhMTE2ODI4NThiNWU0OTUyODIyMzRmYjhiYTZmYjgzOXAyODc5ODY');
 define('WAR_COOLDOWN',  20 * 60); // 20 minutos
 define('DB_KEY',        'war_bot_data');
 
